@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83C170E31C6689EB00404372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C170E21C6689EB00404372 /* AppDelegate.swift */; };
+		83C170E71C6689EB00404372 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C170E61C6689EB00404372 /* GameViewController.swift */; };
+		83C170EA1C6689EB00404372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C170E81C6689EB00404372 /* Main.storyboard */; };
+		83C170EC1C6689EB00404372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C170EB1C6689EB00404372 /* Assets.xcassets */; };
+		83C170EF1C6689EB00404372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C170ED1C6689EB00404372 /* LaunchScreen.storyboard */; };
+		83C170F71C668A0C00404372 /* ball.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C170F61C668A0C00404372 /* ball.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83C170DF1C6689EB00404372 /* SoccerBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C170E21C6689EB00404372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83C170E61C6689EB00404372 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		83C170E91C6689EB00404372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83C170EB1C6689EB00404372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83C170EE1C6689EB00404372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83C170F01C6689EB00404372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C170F61C668A0C00404372 /* ball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ball.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C170DC1C6689EB00404372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C170D61C6689EB00404372 = {
+			isa = PBXGroup;
+			children = (
+				83C170E11C6689EB00404372 /* SoccerBall */,
+				83C170E01C6689EB00404372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83C170E01C6689EB00404372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C170DF1C6689EB00404372 /* SoccerBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C170E11C6689EB00404372 /* SoccerBall */ = {
+			isa = PBXGroup;
+			children = (
+				83C170F61C668A0C00404372 /* ball.scnassets */,
+				83C170E21C6689EB00404372 /* AppDelegate.swift */,
+				83C170E61C6689EB00404372 /* GameViewController.swift */,
+				83C170E81C6689EB00404372 /* Main.storyboard */,
+				83C170EB1C6689EB00404372 /* Assets.xcassets */,
+				83C170ED1C6689EB00404372 /* LaunchScreen.storyboard */,
+				83C170F01C6689EB00404372 /* Info.plist */,
+			);
+			path = SoccerBall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C170DE1C6689EB00404372 /* SoccerBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C170F31C6689EB00404372 /* Build configuration list for PBXNativeTarget "SoccerBall" */;
+			buildPhases = (
+				83C170DB1C6689EB00404372 /* Sources */,
+				83C170DC1C6689EB00404372 /* Frameworks */,
+				83C170DD1C6689EB00404372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoccerBall;
+			productName = SoccerBall;
+			productReference = 83C170DF1C6689EB00404372 /* SoccerBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C170D71C6689EB00404372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Razeware LCC";
+				TargetAttributes = {
+					83C170DE1C6689EB00404372 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeamName = "Chris Language";
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 83C170DA1C6689EB00404372 /* Build configuration list for PBXProject "SoccerBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83C170D61C6689EB00404372;
+			productRefGroup = 83C170E01C6689EB00404372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C170DE1C6689EB00404372 /* SoccerBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83C170DD1C6689EB00404372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C170EF1C6689EB00404372 /* LaunchScreen.storyboard in Resources */,
+				83C170EC1C6689EB00404372 /* Assets.xcassets in Resources */,
+				83C170EA1C6689EB00404372 /* Main.storyboard in Resources */,
+				83C170F71C668A0C00404372 /* ball.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C170DB1C6689EB00404372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C170E71C6689EB00404372 /* GameViewController.swift in Sources */,
+				83C170E31C6689EB00404372 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83C170E81C6689EB00404372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C170E91C6689EB00404372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83C170ED1C6689EB00404372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C170EE1C6689EB00404372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83C170F11C6689EB00404372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83C170F21C6689EB00404372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C170F41C6689EB00404372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SoccerBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.SoccerBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		83C170F51C6689EB00404372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SoccerBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.SoccerBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C170DA1C6689EB00404372 /* Build configuration list for PBXProject "SoccerBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C170F11C6689EB00404372 /* Debug */,
+				83C170F21C6689EB00404372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C170F31C6689EB00404372 /* Build configuration list for PBXNativeTarget "SoccerBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C170F41C6689EB00404372 /* Debug */,
+				83C170F51C6689EB00404372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C170D71C6689EB00404372 /* Project object */;
+}
