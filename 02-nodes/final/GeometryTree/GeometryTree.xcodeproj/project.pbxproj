@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E3D13C8215CDF8800CD8CE5 /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D13C7215CDF8800CD8CE5 /* GeometryFighter.scnassets */; };
+		8E3D13CA215CF03000CD8CE5 /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D13C9215CF03000CD8CE5 /* ShapeType.swift */; };
 		8E605E58215CC5EB008FFD87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E605E57215CC5EB008FFD87 /* AppDelegate.swift */; };
 		8E605E5C215CC5EB008FFD87 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E605E5B215CC5EB008FFD87 /* GameViewController.swift */; };
 		8E605E5F215CC5EB008FFD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E605E5D215CC5EB008FFD87 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E3D13C7215CDF8800CD8CE5 /* GeometryFighter.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = GeometryFighter.scnassets; path = ../../../resources/GeometryFighter.scnassets; sourceTree = "<group>"; };
+		8E3D13C9215CF03000CD8CE5 /* ShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
 		8E605E54215CC5EB008FFD87 /* GeometryTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E605E57215CC5EB008FFD87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E605E5B215CC5EB008FFD87 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +58,14 @@
 		8E605E56215CC5EB008FFD87 /* GeometryTree */ = {
 			isa = PBXGroup;
 			children = (
+				8E3D13C7215CDF8800CD8CE5 /* GeometryFighter.scnassets */,
 				8E605E57215CC5EB008FFD87 /* AppDelegate.swift */,
 				8E605E5B215CC5EB008FFD87 /* GameViewController.swift */,
 				8E605E5D215CC5EB008FFD87 /* Main.storyboard */,
 				8E605E60215CC5EF008FFD87 /* Assets.xcassets */,
 				8E605E62215CC5EF008FFD87 /* LaunchScreen.storyboard */,
 				8E605E65215CC5EF008FFD87 /* Info.plist */,
+				8E3D13C9215CF03000CD8CE5 /* ShapeType.swift */,
 			);
 			path = GeometryTree;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				8E605E64215CC5EF008FFD87 /* LaunchScreen.storyboard in Resources */,
 				8E605E61215CC5EF008FFD87 /* Assets.xcassets in Resources */,
 				8E605E5F215CC5EB008FFD87 /* Main.storyboard in Resources */,
+				8E3D13C8215CDF8800CD8CE5 /* GeometryFighter.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E605E5C215CC5EB008FFD87 /* GameViewController.swift in Sources */,
+				8E3D13CA215CF03000CD8CE5 /* ShapeType.swift in Sources */,
 				8E605E58215CC5EB008FFD87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
