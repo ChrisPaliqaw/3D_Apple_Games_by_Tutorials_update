@@ -55,9 +55,7 @@ let UIColorList:[UIColor] = [
 extension UIColor {
   
   public static func random() -> UIColor {
-    let maxValue = UIColorList.count
-    let rand = Int(arc4random_uniform(UInt32(maxValue)))
-    return UIColorList[rand]
+    return UIColorList.randomElement()!
   }
   
   public static var lime: UIColor {
