@@ -5,6 +5,7 @@ class GameViewController: UIViewController {
     var scnView: SCNView!
     var scnScene: SCNScene!
     var cameraNode: SCNNode!
+    var spawnTime: TimeInterval = 0
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
@@ -30,6 +31,8 @@ class GameViewController: UIViewController {
         scnView.showsStatistics = true
         scnView.allowsCameraControl = true
         scnView.autoenablesDefaultLighting = true
+        scnView.delegate = self
+        scnView.isPlaying = true
     }
     
     func setupScene() {
@@ -88,5 +91,30 @@ class GameViewController: UIViewController {
             force,
             at: position,
             asImpulse: true)
+    }
+    func cleanScene() {
+        // 1
+        for node in scnScene.rootNode.childNodes {
+            // 2
+            if node.presentation.position.y < -2 {
+                // 3
+                node.removeFromParentNode()
+            }
+        }
+    }
+}
+
+extension GameViewController: SCNSceneRendererDelegate {
+    func renderer(_ renderer: SCNSceneRenderer,
+                  updateAtTime time: TimeInterval) {
+        // 1
+        if time > spawnTime {
+            spawnShape()
+            // 2
+            spawnTime =
+                time +
+                TimeInterval(Float.random(in: 0.2...1.5))
+        }
+        cleanScene()
     }
 }
